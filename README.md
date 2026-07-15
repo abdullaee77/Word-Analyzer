@@ -120,3 +120,77 @@ Word-Analyzer
 └─ vite.config.ts
 
 ```
+```
+Word-Analyzer
+├─ .editorconfig
+├─ .oxlintrc.json
+├─ .prettierrc.json
+├─ docs
+├─ env.d.ts
+├─ eslint.config.ts
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  └─ favicon.ico
+├─ README.md
+├─ server
+│  ├─ config
+│  │  └─ db.js
+│  ├─ controllers
+│  │  ├─ aiController.js
+│  │  ├─ analyzeController.js
+│  │  ├─ exportController.js
+│  │  ├─ feedbackController.js
+│  │  └─ uploadController.js
+│  ├─ models
+│  │  └─ Feedback.js
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ routes
+│  │  ├─ ai.js
+│  │  ├─ analyze.js
+│  │  ├─ export.js
+│  │  ├─ feedback.js
+│  │  └─ upload.js
+│  ├─ server.js
+│  ├─ services
+│  │  ├─ aiService.js
+│  │  └─ textAnalyzer.js
+│  └─ utils
+│     └─ stopWords.js
+├─ src
+│  ├─ App.vue
+│  ├─ assets
+│  │  ├─ base.css
+│  │  ├─ logo.svg
+│  │  └─ main.css
+│  ├─ components
+│  │  ├─ AIPanel.vue
+│  │  ├─ CharacterDistributionChart.vue
+│  │  ├─ FeedbackForm.vue
+│  │  └─ WordFrequencyChart.vue
+│  ├─ env.d.ts
+│  ├─ main.ts
+│  ├─ router
+│  │  └─ index.ts
+│  ├─ services
+│  │  ├─ api.ts
+│  │  ├─ pdfExport.ts
+│  │  └─ textAnalyzer.ts
+│  ├─ stores
+│  │  ├─ ai.ts
+│  │  ├─ analyzer.ts
+│  │  └─ counter.ts
+│  └─ views
+│     ├─ AnalyzerPage.vue
+│     └─ HomePage.vue
+├─ tailwind.config.js
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+├─ vercel.json
+└─ vite.config.ts
+
+```
