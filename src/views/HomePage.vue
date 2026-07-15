@@ -60,7 +60,7 @@ function goToAnalyzer() {
     <section class="max-w-6xl mx-auto px-6 md:px-10 pt-10 md:pt-16 pb-24 grid md:grid-cols-2 gap-14 items-center">
       <div class="animate-slide-up">
         <span class="inline-block font-mono text-xs tracking-widest uppercase text-primary-600 bg-primary-50 px-3 py-1 rounded-full mb-6">
-          Phase 1 — Core Analyzer
+          Core Analyzer
         </span>
         <h1 class="font-display text-5xl md:text-6xl leading-[1.05] tracking-tight mb-6">
           Read your text
@@ -138,7 +138,7 @@ function goToAnalyzer() {
     </section>
 
     <footer class="max-w-6xl mx-auto px-6 md:px-10 pb-10 text-xs text-ink-400 font-mono">
-      Advanced Word Analyzer — Phase 1
+      Advanced Word Analyzer
     </footer>
   </div>
 </template>
