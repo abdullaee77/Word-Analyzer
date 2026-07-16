@@ -14,9 +14,7 @@
 
 const mongoose = require('mongoose')
 
-// Serverless functions can spin up fresh on every request, so we cache the
-// connection on the global object to avoid exhausting MongoDB Atlas's
-// connection limit ("too many connections") under load.
+
 let cached = global._mongoose
 if (!cached) {
   cached = global._mongoose = { conn: null, promise: null }
@@ -38,7 +36,7 @@ async function connectDB() {
       })
       .catch((err) => {
         console.error('MongoDB connection error:', err.message)
-        cached.promise = null   // allow retry on next invocation
+        cached.promise = null   
         throw err
       })
   }
